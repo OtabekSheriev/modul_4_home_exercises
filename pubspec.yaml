@@ -1,0 +1,149 @@
+name: modul_4_home_exercises
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.10+1
+  flutter_staggered_grid_view: ^0.4.0
+  fl_chart: ^0.68.0 
+  flutter_rating_bar: ^4.0.0 
+  animations: ^2.0.11
+  flutter_screenutil: ^5.0.0 
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^4.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/assets1/icons/
+    - assets/assets1/images/
+    - assets/assets2/icons/
+    - assets/assets2/images/
+    - assets/assets3/icons/
+    - assets/assets3/images/
+    - assets/assets6/icons/
+    - assets/assets6/images/
+    - assets/assets7/icons/
+    - assets/assets8/images/
+    - assets/assets8/icons/
+    - assets/assets9/images/
+    - assets/assets9/icons/
+    - assets/assets10/images/
+    - assets/assets10/icons/
+    - assets/assets11/images/
+    - assets/assets11/icons/
+    - assets/assets12/images/
+    - assets/assets12/icons/
+    - assets/assets13/images/
+    - assets/assets13/icons/
+    - assets/assets14/images/
+    - assets/assets14/icons/
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: assets/assets1/fonts/Nunito/Nunito-Regular.ttf
+        - asset: assets/assets1/fonts/Nunito/Nunito-SemiBold.ttf
+          weight: 600
+        - asset: assets/assets1/fonts/Nunito/Nunito-Bold.ttf   
+          weight: 700
+    - family:  Poppins
+      fonts:
+        - asset: assets/assets2/fonts/Poppins/Poppins-Regular.ttf
+        - asset: assets/assets2/fonts/Poppins/Poppins-Medium.ttf 
+          weight: 600
+        - asset: assets/assets2/fonts/Poppins/Poppins-Bold.ttf
+          weight: 700 
+    - family: Cairo
+      fonts:
+        - asset: assets/assets6/fonts/Cairo/Cairo-Regular.ttf
+        - asset: assets/assets6/fonts/Cairo/Cairo-SemiBold.ttf
+          weight: 600
+        - asset: assets/assets6/fonts/Cairo/Cairo-Bold.ttf 
+          weight: 700
+        - asset: assets/assets6/fonts/Cairo/Cairo-Black.ttf
+          weight: 900
+    - family: WorkSans
+      fonts:
+        - asset: assets/assets12/fonts/WorkSans/WorkSans-Regular.ttf
+        - asset: assets/assets12/fonts/WorkSans/WorkSans-Bold.ttf 
+        - asset: assets/assets12/fonts/WorkSans/WorkSans-SemiBold.ttf  
+    - family: Inter
+      fonts:
+        - asset: assets/assets13/fonts/Inter_18pt-Bold.ttf
+        - asset: assets/assets13/fonts/Inter_18pt-Medium.ttf
+        - asset: assets/assets13/fonts/Inter_18pt-Regular.ttf
+        - asset: assets/assets13/fonts/Inter_18pt-SemiBold.ttf
+    - family: Geometr415 Blk BT
+      fonts:
+        - asset: assets/assets14/fonts/geometric_415_black_bt.ttf 
+    - family: SF UI Display
+      fonts:
+        - asset: assets/assets14/fonts/sf-ui-display-bold-58646a511e3d9.otf
+        - asset: assets/assets14/fonts/sf-ui-display-medium-58646be638f96.otf
+        - asset: assets/assets14/fonts/sf-ui-display-semibold-58646eddcae92.otf
+       
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
